@@ -6,18 +6,19 @@
 label inicio:
     "Este es el comienzo del juego."
     jump siguiente_etiqueta
-Saltos condicionales:
-renpy
-Copy code
+```
+## Saltos condicionales:
+```renpy
 if variable >= 5:
     "La variable es mayor o igual a 5."
 else:
     "La variable es menor que 5."
+```
 Mostrar texto:
-renpy
-Copy code
+```renpy
 "Hola, ¿cómo estás?"
 "¡Bienvenido al juego!"
+```
 Asignación de variables:
 renpy
 Copy code
