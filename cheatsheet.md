@@ -14,21 +14,21 @@ if variable >= 5:
 else:
     "La variable es menor que 5."
 ```
-Mostrar texto:
+## Mostrar texto:
 ```renpy
 "Hola, ¿cómo estás?"
 "¡Bienvenido al juego!"
 ```
-Asignación de variables:
+## Asignación de variables:
 ```renpy
 $ nombre = "John Doe"
 $ edad = 25
 ```
-Condicionales en línea:
+## Condicionales en línea:
 ```renpy
 "¡Eres mayor de edad!" if edad >= 18 else "Eres menor de edad."
 ```
-Opciones:
+## Opciones:
 ```renpy
 menu:
     "Elige una opción:"
@@ -36,11 +36,11 @@ menu:
     "Opción 2" [jump etiqueta_opcion_2]
 end
 ```
-Reproducir música:
+## Reproducir música:
 ```renpy
 play music "musica_fondo.ogg"
 ```
-Reproducir sonidos:
+## Reproducir sonidos:
 ```renpy
 play sound "efecto_sonido.ogg"
 ```
